@@ -1,0 +1,17 @@
+        <!-- FOOTER -->
+        <div class="d-flex flex-column flex-md-column mt-3 align-items-center" id="footer">
+            <div class="row d-flex justify-content-center flex-column flex-md-row align-items-center" style="width:80%">
+                <div class="col-md-6 d-flex flex-column gap-2 p-2">
+                    <span style="font-size:25px; width: 50%">Get our weekly newsletter:</span>
+                    <span>Email address*</span>
+                    <input type="email" placeholder="someone@gmail.com" id="emailbox">
+                    <a href="contact.html"><button type="button" class="btn btn-dark" id="readpost">SUBMIT</button></a>
+                </div>
+                <div class="col-md-6 d-flex flex-row gap-3 py-2 justify-content-md-end" >
+                    <a href="twitter.com"><img src="https://cdn-icons-png.flaticon.com/512/733/733635.png" id="icons"></a>
+                    <a href="facebook.com"><img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" id="icons"></a>
+                    <a href="instagram.com"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384031.png" id="icons"></a>
+                </div>
+            </div>
+        </div>
+        <!-- END OF FOOTER -->

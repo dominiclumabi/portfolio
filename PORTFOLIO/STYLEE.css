@@ -1,0 +1,20 @@
+
+h1{
+    background-color: yellow;
+}
+
+#leftSide{
+    width: 40%;
+    float: left;
+    background-color: red;
+}
+
+#rightSide{
+    width:60%;
+    float: right;
+    background-color: blue;
+}
+
+#footers{
+    background-color: brown;
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="cssportfolio.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    </head>
+    <body>
+
+    <!-- HEADER -->
+    <div class="header">
+        <div class="row d-flex" id="header">
+                <div class="col col-6 col-sm-6" id="head">
+                    <img id="id" src="assets/ID-2X2.jpg" alt="logo">
+                </div>
+
+                <div class="col col-6 col-sm-6" id="navbar">
+                    <nav>
+                        <!-- Burger nav -->
+                        <img id="burgerNav"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/2048px-Hamburger_icon.svg.png"
+                            alt=""  onclick="navClick()">
+                        <!-- Navigation -->
+                        <ul id="navigation" style="display: none;">
+                            <li><a href="Portfolio.html" id="navlink">Home</a></li>
+                            <li><a href="#about" id="navlink">About</a></li>
+                            <li><a href="#project" id="navlink">Projects</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- <div class="col col-sm-6" id="link">
+                    <nav>
+                        <a href="#" id="navlink">Home</a>
+                        <a href="#" id="navlink">About</a>
+                        <a href="#" id="navlink">Projects</a>
+                    </nav>  
+                </div> -->
+            </div>
+        </div>
+
+            
+
+
+
+        <!-- DOMINIC -->
+            <div class="row d-flex justify-content-center " id="dominic" >
+                <div class="col col-12 d-flex align-items-center" id="doms">
+                    <h1 style="color: white;" class="animate__animated animate__fadeInDown">HEY, I AM DOMINIC</h1>
+                </div>
+
+                <div class="col col-12 d-flex align-items-center" >
+                    <p class="animate__animated animate__fadeIn animate__delay-1s" style="font-size: 20px;">Hey There, I'm an IT Graduate in Quezon City University. Willing to learn new things that would make life easy and enjoyable for people.</p>
+                </div>
+
+                <div class="col col-12 d-flex justify-content-center col-12" >
+                    <a href="#project" class="btn btn-success">Projects</a>
+                </div>
+            </div>
+
+
+            <!-- ABOUT -->
+            <div class="container" >
+                <div class="row col-12" id="about">
+                    <h1 style="text-align: center;">About Me</h1>
+                    <div class="col">
+                        <p style="text-align: center;" id="paragraph">A boy with dream to become a Senior Developer</p>
+                    </div>
+                </div>
+        
+                <!-- GET TO KNOW ME -->
+                <div class="row col-sm-6">
+                    <div class="col col-12">
+                        <h4>Get to know me!</h4>
+                    </div>
+                        <div class="col col-12">
+                            <p id="paragraph" style="text-align: left;">I bring enthusiasm and a futuristic approach to every project I am a part of. I live for changing ideas into reality, even more so if it involves a puzzle or challenge.</p>
+                        </div> 
+                    <div class="col col-12">
+                        <p id="paragraph" style="text-align: left;">I like to interact with people, and listen to new ideas . I am always open to discussing anything and look forward to connecting with you .Feel free to <b>contact</b> me. </p>
+                    </div>
+
+                    <!-- CONTACT -->
+                    <!-- <div class="btn justify-content-center" id="btn" style="border: 1px solid black; width:50% ; margin-left: 10px;" >Contact -->
+                    <div class="btn d-flex justify-contentstart">
+                        <a  href="https://www.facebook.com/abc.lumabi" id="btn" style="width:40%;" class="btn btn-info">Contact</a>
+                    </div>                    
+                </div>
+        
+                <!-- SKILLS -->
+                <div class="row col-sm-6 d-flex align-items-center" id="skills">
+                    <h3 id="myskills">My Skills</h3>
+                        <ul>
+                            <li id="skill">HTML</li>
+                            <li id="skill">CSS</li>
+                            <li id="skill">BOOTSTRAP</li>
+                            <li id="skill">JAVASCRIPT</li>
+                        </ul>
+                </div>
+
+
+                <div class="row col-12" id="project">
+                    <h1 style="margin-top: 50px;">PROJECTS</h1>
+                </div>
+
+                <div class="col col-12 " style="justify-content: center;">
+                    <p>Below are the Activities in KodeGo</p>
+                    
+                </div>
+
+                <div class="row">
+                    <div class="col col-12 col-sm-6 col-md-4" style="border: solid 1px black;">
+                        <span>Resume</span>
+                        <a href="ACTIVITY-RESUME.html"><img id="resume" src="assets/resume.png" alt="resume"></a>
+                    </div>
+                    
+                    <div class="col col-12 col-sm-6 col-md-4" style="border: solid 1px black;">
+                        <span>Student Table</span>
+                        <a href="HTML Table Activity 1.html"><img id="table" src="assets/table.png" alt="table"></a>
+                    </div>
+    
+                    <div class="col col-12 col-sm-6 col-md-4" style="border: solid 1px black;">
+                        <span>Javascript Grocery</span>
+                        <a href="index.html"><img id="grocery" src="assets/jsgrocery.png" alt="grocery"></a>
+                    </div>
+
+                    <div class="col col-12 col-sm-6 col-md-4" style="border: solid 1px black;">
+                        <span>Calculator</span>
+                        <a href="WD22/JavascriptCalculator.html"><img id="cal" src="assets/calculator.png" alt="cal"></a>
+                    </div>
+
+                    <div class="col col-12 col-sm-6 col-md-4" style="border: solid 1px black;">
+                        <span>Mini Project</span>
+                        <a href="Pair-Dominic/home.html"><img id="proj" src="assets/tierra.png" alt="proj"></a>
+                    </div>
+
+
+                </div>
+            </div>
+            
+
+     <!-- FOOTER -->
+     <div class="d-flex align-items-center flex-lg-row flex-column" id="footer">
+        <div class="col-12 col-lg-4 d-flex flex-column gap-2 p-2 justify-content-center align-items-center">
+            <a href="#"><span id="footertitle">DOMS.</span></a>
+        </div>
+        <div class="col-12 col-lg-4 d-flex flex-column gap-2 p-2 justify-content-center align-items-center">
+            <span>Novaliches Quezon City, Metro Manila.</span>
+        </div>
+        <div class="col-12 col-lg-4 d-flex flex-column gap-2 p-2 justify-content-center align-items-center">
+            <span>Contact 0921 286 3996</span>
+        </div>
+    </div>
+
+                
+
+                
+
+
+
+
+
+
+        <!-- JAVASCRIPT -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+        <script src="https://pagecdn.io/lib/sweetalert2/11.4.24/sweetalert2.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+         
+        <script>
+            function navClick() {
+                var navigation = document.getElementById("navigation");
+
+                if (navigation.style.display === "none") {
+                    navigation.style.display = "flex";
+                }
+                else {
+                    navigation.style.display = "none";
+                }
+            }
+        </script>
+
+</body>
+</html>

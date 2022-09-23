@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='home.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container-fluid">
+
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-sm navbar-light bg-light px-2" id="navbar">
+            <a href="home.html" class="navbar-brand mb-0 h1" id="logo">
+                <img class="d-inline-block align-top" src="Assets/icon.png"style="width:40px; height:auto;">
+            </a>
+            <!-- Button -->
+            <button 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarCol" 
+            class="navbar-toggler"
+            aria-controls="navbarCol"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            style="border-width:0px;">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- List -->
+            <div class="collapse navbar-collapse d-flex justify-content-sm-end py-2" id="navbarCol">
+                <ul class="navbar-nav px-1 fs-5" id="navlinks">
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="About.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+        <!-- END OF NAVBAR -->
+
+        <!-- BANNER PART OF WEBPAGE -->
+        <div class="col-md-12 d-flex flex-column justify-content-center align-items-center" id="partone">
+            <!-- <img src="../Project/assets/icon.png" style="height:auto; width:350px;"> -->
+            <span id="tierra">tierra.</span>
+            <span style="font-size:35px; font-weight:500;">travel with us.</span>
+            <a href=blog.html><button type="button" class="btn btn-dark bg-dark" id="readblog">READ BLOG</button></a>
+        </div>
+
+        <!-- PART TWO OF WEBPAGE -->
+        <div class="d-flex justify-content-center flex-column align-items-center" id="parttwo">
+            
+            <div class="row d-flex justify-content-center flex-column flex-md-row align-items-center" style=" padding:0; margin:0; width:100%">
+                <div class="col-md-6 d-flex justify-sm-content-start justify-content-md-center" style="padding:0; margin:0;">
+                    <span>the story </span>
+                </div>
+                <div class="col-md-6 d-flex justify-sm-content-center justify-content-center" style="padding:0; margin:0">
+                    <img src="Assets/img1.jpg" id="img" style="max-height:500px; object-fit:cover; object-position: 0 70%;">
+                </div>
+            </div>
+
+            <div class="row d-flex justify-content-center flex-column flex-md-row align-items-center" style="padding:0; margin:0; width:100%">
+                <div class="col-md-6 order-md-2 d-flex justify-content-md-start justify-content-center px-4" style="padding:0; margin:0;">
+                    <span>of an adventurer</span>
+                </div>
+                <div class="col-md-6 order-md-1 d-flex justify-content-center" style="padding:0; margin:0;">
+                    <img src="Assets/img2.jpg" id="img">
+                </div>
+            </div>
+
+            <div class="row d-flex justify-content-center flex-column flex-md-row align-items-center" style="padding:0; margin:0; width:100%" id="part1row3">
+                <div class="col-md-6 order-1 order-md-1 d-flex justify-content-end justify-sm-content-start ">
+                    <span id="aims">that aims to travel the world </span>
+                </div>
+
+
+                <div class="col-md-6 order-2 order-md-3 d-flex justify-content-center" style="padding:0 !important;">
+                    <img src="Assets/img3.jpg" id="img">
+                </div>
+
+                <div class="col-md-6 order-3 order-md-2 d-flex justify-content-center flex-column p-4 gap-3" id="readtext">
+                    <span>Read about the travels with the help of tierra.</span>
+                    <a href="about.html"><button type="button" class="btn btn-dark" id="buttonlink">READ MORE</button></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- PART THREE OF WEBPAGE LATEST POSTS-->
+        <div class="d-flex justify-content-center flex-column align-items-center" id="partthree" style="width:100%">
+            <div class="d-flex justify-content-center p-3" style=" width:100% ">
+                <span>LATEST POSTS </span>
+            </div>
+
+            <div class="row d-flex justify-content-center flex-column flex-md-row align-items-center" style=" width:100%">
+                <div class="col-md-4 col-12 d-flex flex-column justify-content-center flex-row p-3">
+                    <a href="Santorini.html"><img src="Assets/santorini.jpg" id="imgblog" style="object-position: 0 50%;"></a>
+                    <span id="subtextblog">Santorini, Greece: </span>
+                    <span id="subtextblog2">One of the most ecstatic place on earth</span>
+                </div>
+                <div class="col-md-4 col-12 d-flex flex-column justify-content-center flex-row p-3">
+                    <a href="Lauterbrunnen.html"><img src="Assets/switzerland.jpg" id="imgblog"></a>
+                    <span id="subtextblog">Lauterbrunnen, Switzerland: </span>
+                    <span id="subtextblog2">Calmest place in the world</span>
+                </div>
+                <div class="col-md-4 col-12 d-flex flex-column justify-content-center flex-row p-3">
+                    <a href="Venice.html"><img src="Assets/venice.jpg" id="imgblog"></a>
+                    <span id="subtextblog">Venice, Italy: </span>
+                    <span id="subtextblog2">Places to be with your special someone</span>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center p-3" style=" width:100%">
+                <button type="button" class="btn btn-dark " id="buttonlink">READ MORE</button>
+            </div>
+        </div>
+
+        <!-- PART FOUR OF THE WEBPAGE TALK TO US -->
+        <div class="d-flex flex-column flex-md-column align-items-center" id="partfour">
+            <div class="d-flex justify-content-center" style=" width:100%">
+                <img src="Assets/img5.jpg" id="imgttu" style="max-height:600px; object-fit:cover; object-position: 0 50%;">
+            </div>
+
+            <div class="d-flex justify-content-center p-3" style=" width:100%">
+                <span>Let's chat!</span>
+            </div>
+
+            <div class="d-flex justify-content-center p-3" style=" width:100%" >
+                <span style="font-size:20px !important;">Got a question for us? Want to know more about us? We're glad to talk to you.</span>
+            </div>
+
+            <div class="d-flex justify-content-center p-3" style=" width:100%" >
+                <button type="button" class="btn btn-dark " id="buttonlink">CONTACT</button>
+            </div>
+
+        </div>
+
+        <!-- FOOTER -->
+        <div class="d-flex flex-column flex-md-column mt-3 align-items-center" id="footer">
+            <div class="row d-flex justify-content-center flex-column flex-md-row align-items-center" style="width:80%">
+                <div class="col-md-6 d-flex flex-column gap-2 p-2">
+                    <span style="font-size:25px; width: 50%">Get our weekly newsletter:</span>
+                    <span>Email address*</span>
+                    <input type="email" placeholder="someone@gmail.com" id="emailbox">
+                    <a href="contact.html"><button type="button" class="btn btn-dark" id="buttonlink">SUBMIT</button></a>
+                </div>
+                <div class="col-md-6 d-flex flex-row gap-3 py-2 justify-content-md-end" >
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733635.png" id="icons"></a>
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" id="icons"></a>
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384031.png" id="icons"></a>
+                </div>
+            </div>
+        </div>
+        <!-- END OF FOOTER -->
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>

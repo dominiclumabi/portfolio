@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Holy Grail Layout 2
+        </title>
+
+        <style>
+
+            body {
+                height: 100%;
+            }
+            
+           div, content, header, article, nav, aside, footer {
+                border: solid 1px black;
+            }
+
+            .containter {
+                display: flex;
+                flex-direction: column;
+                height: 100vh;
+
+            }
+            
+            .content {
+                display: flex;
+                flex-direction: row;
+                height: 400px;
+            }
+
+            header {
+                height: 110px;
+                background-color: rgb(102, 246, 102);
+            }
+            footer {
+                height: 110px;       
+                background-color: rgb(102, 246, 102);
+            }
+            aside {
+                width: 15%;
+                background-color: wheat;
+            }
+            nav {
+                width: 15%;
+                background-color: wheat;
+            }
+
+            article {
+                width: 70%;
+            }
+
+
+        </style>
+    </head>
+
+    <body>
+        
+        <div class="container">
+
+            <header>Header</header>
+            <!--2nd row-->
+            <div class="content">
+
+                <nav>nav</nav>
+                <article>article</article>
+                <aside>aside</aside>
+
+            </div>
+
+            <!--3rd row-->
+            <footer>Footer</footer>
+
+
+        </div>
+
+    </body>
+</html>

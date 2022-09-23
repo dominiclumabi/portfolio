@@ -1,0 +1,47 @@
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+h1{
+ color: gray;   
+}
+
+body{
+    background-color:lightblue;
+    color: white;
+    font-style: normal;
+}
+
+#fullStack{
+    background-color: #003147;
+    width: 35%;
+}
+
+#Name{
+
+}
+
+.container .left_Side
+{
+	position: relative;
+	background: #003147;
+	padding: 40px;
+}
+
+.profileText .imgBx
+{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow; hidden;
+}

@@ -1,0 +1,32 @@
+        <nav class="navbar navbar-expand-sm navbar-light bg-light px-2" id="navbar">
+            <a href="#" class="navbar-brand mb-0 h1">
+                <img class="d-inline-block align-top" src="project/assets/icon.png" id="logo" style="width:40px; height:auto;">
+            </a>
+            <!-- Button -->
+            <button 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarCol" 
+            class="navbar-toggler"
+            aria-controls="navbarCol"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            style="border-width:0px;">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- List -->
+            <div class="collapse navbar-collapse" id="navbarCol">
+                <ul class="navbar-nav px-1">
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link active">Blog</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>

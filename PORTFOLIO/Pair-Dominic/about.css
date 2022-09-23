@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#logo {
+    margin-left: 10px;
+}
+
+#navbar{
+    position:fixed;
+    width:100%;
+    z-index: 2;
+}
+
+#navlinks li a{
+    display: block;
+}
+
+
+#navlinks li a:hover{
+    display:block;
+    color: #219ebc !important;
+    text-decoration: none;
+}
+
+#navlinks li.active{
+    font-weight: 700 !important;
+}
+
+.collapse:not(.show) {
+    display:none !important;
+}
+
+
+
+.container-fluid{
+    padding:0px !important;
+    margin:0px !important;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.cutie {
+    font-family: 'Roboto', sans-serif;
+    color: var(--colors-dark);
+    font-size: 90px;
+    font-style: normal;
+    font-family: var(--font-primary);
+    font-weight: 600;
+    line-height: 1.35;
+}
+
+.elisha {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 36.3%;
+}
+
+.col {
+    position: relative;
+}
+
+.collaboration {
+    position: relative;
+    margin-top:200px;
+}
+
+.collab {
+    height:700px;
+    width:100%;
+    object-fit:cover; 
+    object-position: 50% 60%;
+}
+
+.colab {
+    left: 20px;
+    top: 61px;
+    position: absolute;
+    float: inline-start;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 60px;
+    font-style: normal;
+    font-family: var(--font-primary);
+    font-weight: 600;
+    line-height: 1.35;
+}
+
+
+#contact {
+    top: 270px;
+    left: 20px;
+    position: absolute;
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+}
+
+#readpost{
+    height:auto;
+    position: relative !important;
+    top: 0px;
+    left: 0;
+    width: 50%;
+}
+
+
+
+#footer{
+    background-color: #caf0f8;
+    padding:100px;
+}
+
+#icons{
+    height:auto;
+    width:20px;
+}
+
+#emailbox{
+    padding:10px;
+}
+
+
+@media (max-width:575px){
+    #footer{
+        padding:25px;
+    }
+
+    .cutie {
+        text-align: left;
+    }
+
+    .elisha {
+        width: 100%;
+        height: auto;
+        position: relative;
+        left: 0;
+    }
+
+    .lorem {
+        text-align: left;
+    }
+
+    .sedut {
+        text-align: left;
+    }
+
+    .colab {
+        text-align: left;
+    }
+
+    .collaboration {
+        position: relative;
+        margin-top:50px;
+    }
+}
+
+@media (min-width: 576px) {
+.elisha {
+    width: 100%;
+    max-width: 500px;
+    min-width: 500px;
+    height: auto;
+    position: absolute;
+    left: 36.3%;
+    }
+}
+
+
+/* pataas */
+@media (min-width: 576px) {
+    .elisha {
+        display: flex;
+        width: 40%;
+        height: 450px;
+        position: relative;
+    }
+
+    .lorem {
+        width: 45%;
+        height:auto ;
+        text-align: left;
+        margin-left: 200px;
+    }
+
+    .sedut {
+        width: 45%;
+        height:auto ;
+        text-align: left;
+        margin-left: 200px;
+    }
+
+
+    .lorem {
+        text-align: left;
+    }
+
+    .sedut {
+        text-align: left;
+    }
+
+    .colab {
+        
+        text-align: left;
+    }
+
+    .cutie {
+        width: 60%;
+        margin-left: 160px;
+        text-align: left;
+    }
+
+
+}
+
+@media (min-width: 768px) {
+    .elisha {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        height: auto;
+        position: relative;
+        left: 19.3%;
+        }
+
+
+}
+
+
+
+
+
+@media (min-width: 1024px) {
+    .elisha {
+        position: absolute;
+        margin-top: 152px;
+        margin-left: -257px;
+        width: 50%;
+        height: 100%;
+    }
+
+    #contact  {
+        top: 650px;
+        left: 70px;
+        font-size: 15px;
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+    }
+
+
+    .cutie {
+        width: 30%;
+        top: 169px;
+        margin-left: 375px;
+        margin-top: 150px;
+        position: absolute;
+    }
+
+    .collab{
+        width: 100%;
+        margin-top: 230px;
+        position: relative;
+    }
+
+    .lorem {
+        padding-top: 650px;
+        MARGIN-LEFT: 540PX;
+
+    }
+
+    .sedut {
+        margin-left: 540px;
+        
+    }
+
+    .colab {
+        text-align: left;
+        left: 20px;
+        width: 50%;
+        top: 461px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 110px;
+    }
+
+    .btn {
+        top: 840px;
+        left: 60px;
+        position: absolute;
+        text-align: center;
+        width: 20%;
+        height: auto;
+        font-size: 250px;
+    }
+}
+
+
+
+
+
+
+@media (min-width: 1440px) {
+    .elisha {
+        position: absolute;
+        margin-top: 152px;
+        margin-left: -260x;
+        width: 50%;
+        height: 100%;
+    }
+
+    .cutie {
+        width: 30%;
+        text-align: left;
+        top: 169px;
+        margin-left: 521px;
+        margin-top: 150px;
+        position: absolute;
+        font-size: 100px;
+    }
+
+    .collab{
+        width: 100%;
+        margin-top: 282px;
+        position: relative;
+    }
+
+    .lorem {
+        padding-top: 532px;
+        MARGIN-LEFT: 780PX;
+        margin-bottom: 50px;
+
+    }
+
+    .sedut {
+        margin-left: 780px;
+        
+    }
+
+    .colab {
+        text-align: left;
+        left: 73px;
+        width: 40%;
+        top: 461px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 150px;
+    }
+
+    .btn {
+        top: 892px;
+        left: 138px;
+        position: absolute;
+        text-align: center;
+        width: 20%;
+        height: auto;
+        font-size: 250px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 2560px) {
+    .elisha {
+        position: absolute;
+        margin-top: 152px;
+        margin-left: -1264px;
+        width: 40%;
+        height: 70%;
+    }
+
+    .cutie {
+        width: 30%;
+        text-align: left;
+        top: 169px;
+        margin-left: 521px;
+        margin-top: 150px;
+        position: absolute;
+        font-size: 100px;
+    }
+
+    .collab{
+        width: 100%;
+        margin-top: 282px;
+        position: relative;
+    }
+
+    .lorem {
+        padding-top: 532px;
+        MARGIN-LEFT: 780PX;
+        margin-bottom: 50px;
+
+    }
+
+    .sedut {
+        margin-left: 780px;
+        
+    }
+
+    .colab {
+        text-align: left;
+        left: 73px;
+        width: 40%;
+        top: 461px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 150px;
+    }
+
+    .btn {
+        top: 892px;
+        left: 138px;
+        position: absolute;
+        text-align: center;
+        width: 20%;
+        height: auto;
+        font-size: 250px;
+    }
+}
